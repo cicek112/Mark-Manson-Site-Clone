@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;0,900;1,800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style:none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+
+header{
+    background-image:url(background.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.nav{                                                                                                                                                                                                                                                   
+    padding-left: 1em;
+    padding-right: 1%;
+    padding-top: 1%;
+    height: 15%;
+    
+}
+
+.flex{
+    height: 70%;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    
+    
+}
+.inner{
+    display: flex;
+    align-items: center;
+    
+}
+.inner li{
+   
+    padding-right: 1em;
+    
+}
+
+.inner a{
+    font-size: 17.5px;
+    color: white;
+    
+    padding: 0.75em;
+    
+}
+
+.hov:hover{
+    background-color: black;
+}
+
+
+/* 
+
+.article{
+    display: inline-block;
+    position: relative;
+}
+
+.inner{
+    position: absolute;    
+    background-color: black;
+    min-width: 200px;
+    
+}
+
+.inner a{
+    padding: 16px 20px;
+    display: block;
+    background-color: black;
+}
+
+.article:hover .inner{
+    display: block;
+}
+
+ */
+
+
+
+
+.mark{
+    
+    font-weight: 550;
+    font-size: 50px;
+}
+.mark a {
+    color: white;
+}
+
+
+.button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: coral;
+    border: none;
+    color: white;
+    font-weight:700;
+}
+.button:hover{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: grey;
+    border: none;
+    color: white;
+    font-weight:700;
+}
+
+.yazı{
+    color: white;
+}
+
+/* Navbar Ends */
+
+
+.textbox{
+    
+    padding-left: 20%;
+    margin-top: 6%;
+ 
+}
+h1{
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.button2{
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    font-weight:700;
+
+    margin-top: 5%;
+}
+
+.textbox .parag {
+    width: 70%;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+
+.textbox p{
+    width: 70%;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 2%;
+    font-size: 1em;
+}
